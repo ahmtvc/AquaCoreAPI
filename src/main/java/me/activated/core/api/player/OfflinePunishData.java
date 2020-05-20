@@ -9,8 +9,12 @@ import java.util.UUID;
 
 /**
  * This class can be initialized or accessed from other classes which already initialize it
- * */
+ */
 public class OfflinePunishData {
+
+    public OfflinePunishData(String name) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
 
     public List<Punishment> getPunishments() {
         throw new IllegalPluginAccessException("API is not registered");
@@ -21,10 +25,6 @@ public class OfflinePunishData {
     }
 
     public int getPunishPriority() {
-        throw new IllegalPluginAccessException("API is not registered");
-    }
-
-    public OfflinePunishData(String name) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 

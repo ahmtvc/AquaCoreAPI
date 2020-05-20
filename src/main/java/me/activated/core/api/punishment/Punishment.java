@@ -4,7 +4,7 @@ import org.bukkit.plugin.IllegalPluginAccessException;
 
 /**
  * This class is accessed from PunishData
- * */
+ */
 public class Punishment {
 
     public PunishmentType getType() {

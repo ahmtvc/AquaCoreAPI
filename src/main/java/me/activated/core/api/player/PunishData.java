@@ -9,7 +9,7 @@ import java.util.Set;
 
 /**
  * This class is accessed from PlayerData
- * */
+ */
 public class PunishData {
 
     public Set<Punishment> getPunishments() {

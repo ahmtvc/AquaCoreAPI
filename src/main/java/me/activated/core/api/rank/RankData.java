@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * This class is accessed from PlayerData or AquaCoreAPI
- * */
+ */
 public class RankData {
 
     public ChatColor getColor() {

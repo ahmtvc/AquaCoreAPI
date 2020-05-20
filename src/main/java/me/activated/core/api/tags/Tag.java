@@ -5,7 +5,7 @@ import org.bukkit.plugin.IllegalPluginAccessException;
 
 /**
  * This class is accessed from PlayerData or AquaCoreAPI
- * */
+ */
 public class Tag {
 
     public String getName() {

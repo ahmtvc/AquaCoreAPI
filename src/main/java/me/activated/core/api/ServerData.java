@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * This class is accessed from AquaCoreAPI
- * */
+ */
 public class ServerData {
 
     public String getServerName() {

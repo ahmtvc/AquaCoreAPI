@@ -1,6 +1,5 @@
 package me.activated.core.plugin;
 
-import lombok.NonNull;
 import me.activated.core.api.ServerData;
 import me.activated.core.api.player.GlobalPlayer;
 import me.activated.core.api.player.PlayerData;
@@ -18,11 +17,14 @@ public class AquaCoreAPI {
 
     public static AquaCoreAPI INSTANCE;
 
+    public static boolean isRegistered() {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
     public PlayerData getPlayerData(UUID uuid) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    @NonNull
     public ChatColor getPlayerNameColor(UUID uuid) {
         throw new IllegalPluginAccessException("API is not registered");
     }
@@ -84,10 +86,6 @@ public class AquaCoreAPI {
     }
 
     public void disableStaffMode(Player player) {
-        throw new IllegalPluginAccessException("API is not registered");
-    }
-
-    public static boolean isRegistered() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 }

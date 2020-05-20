@@ -1,8 +1,5 @@
 package me.activated.core.api.events.impl;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import me.activated.core.api.events.AquaEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.IllegalPluginAccessException;
