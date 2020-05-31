@@ -44,7 +44,7 @@ public class PlayerData {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public ChatColor getNameColor() {
+    public String getNameColor() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
