@@ -11,31 +11,31 @@ public class Punishment {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private boolean isClear() {
+    public boolean isClear() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private boolean isSilent() {
+    public boolean isSilent() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private String getAddedBy() {
+    public String getAddedBy() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private boolean isIPRelative() {
+    public boolean isIPRelative() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private String getRemovedFor() {
+    public String getRemovedFor() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private String getRemovedBy() {
+    public String getRemovedBy() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private String getReason() {
+    public String getReason() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 

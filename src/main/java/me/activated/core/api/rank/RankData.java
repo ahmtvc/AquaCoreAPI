@@ -38,11 +38,11 @@ public class RankData {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private List<String> getAllPermissions() {
+    public List<String> getAllPermissions() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    private List<String> getAvailablePermissions() {
+    public List<String> getAvailablePermissions() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
