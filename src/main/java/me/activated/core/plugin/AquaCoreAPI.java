@@ -88,4 +88,12 @@ public class AquaCoreAPI {
     public void disableStaffMode(Player player) {
         throw new IllegalPluginAccessException("API is not registered");
     }
+
+    public boolean isStaffChat(Player player) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+    public boolean isAdminChat(Player player) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
 }
