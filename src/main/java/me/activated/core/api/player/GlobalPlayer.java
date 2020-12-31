@@ -77,6 +77,11 @@ public class GlobalPlayer {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
+    public void sendClickableMessage(String message, String hover, String command) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+
     public void playSound(String sound) {
         throw new IllegalPluginAccessException("API is not registered");
     }
