@@ -96,4 +96,13 @@ public class AquaCoreAPI {
     public boolean isAdminChat(Player player) {
         throw new IllegalPluginAccessException("API is not registered");
     }
+
+    public boolean isDisguised(Player player) {
+        throw new IllegalPluginAccessException("API is not registered");
+
+    }
+
+    public String getRealName(Player player) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
 }
