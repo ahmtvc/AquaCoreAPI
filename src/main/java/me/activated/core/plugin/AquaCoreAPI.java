@@ -99,7 +99,6 @@ public class AquaCoreAPI {
 
     public boolean isDisguised(Player player) {
         throw new IllegalPluginAccessException("API is not registered");
-
     }
 
     public String getRealName(Player player) {
