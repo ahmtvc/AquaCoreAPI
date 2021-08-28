@@ -101,6 +101,10 @@ public class AquaCoreAPI {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
+    public List<GlobalPlayer> getGlobalPlayers() {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
     public String getRealName(Player player) {
         throw new IllegalPluginAccessException("API is not registered");
     }
