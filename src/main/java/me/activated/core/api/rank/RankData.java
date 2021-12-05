@@ -46,7 +46,6 @@ public class RankData {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-
     public String getPrefix() {
         throw new IllegalPluginAccessException("API is not registered");
     }
@@ -72,6 +71,10 @@ public class RankData {
     }
 
     public ChatColor getChatColor() {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+    public int getWeight() {
         throw new IllegalPluginAccessException("API is not registered");
     }
 }
